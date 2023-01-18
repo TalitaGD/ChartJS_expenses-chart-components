@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.container{
+    min-height: 900px;
+    width: 100%;
+    background: #daedf3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-area .txt-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #7bc8e0;
+    padding: 20px;
+    width: 600px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.txt-top .txt-top-left p{
+    font-size: 14px;
+    color: #ffffffbd;
+    margin-bottom: 3px;
+}
+
+.txt-top .txt-top-left h1{
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.txt-top  .txt-right img{
+    width: 70px;
+}
+
+.box-area .bottom{
+    background: #FFFCF7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box-main h1{
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.box-main .txt-secundario{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.txt-secundario .txt-top-left p{
+    color: #adadad;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.txt-secundario .txt-top-left h2{
+    font-size: 18px;
+}
+
+.txt-secundario .right{
+    margin-bottom: 5px;
+}
+
+.txt-secundario .right p.porcentagem{
+    color: #000;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: right;
+
+}
+
+.txt-secundario .right p.ultimo-month{
+    color: #adadad;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
